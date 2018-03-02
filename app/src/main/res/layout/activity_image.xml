@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+        <ImageView
+            android:id="@+id/sd_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_sdcard"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black_overlay"
+            android:id="@+id/text1"
+            android:text="드론 미디어 관리" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/round_btn"
+        android:text=" 드론 갤러리"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="270dp">
+        <ImageView
+            android:id="@+id/pano_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_pano"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black_overlay"
+            android:id="@+id/text2"
+            android:text=" 파노라마 제작" />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/pano_btn"
+            android:text="SELECT"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/btn_stitch"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/pano_btn"
+            android:text="STITCH"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@color/colorWhite"
+        app:itemTextColor="@color/colorWhite"
+        app:layout_behavior="tech.thdev.app.view.BottomNavigationBehavior"
+        app:menu="@menu/menu_main" />
+</RelativeLayout>

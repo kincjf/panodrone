@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Panom</string>
+    <string name="title_activity_connection">ConnectionActivity</string>
+    <string name="product_information">기기 정보</string>
+    <string name="connection_loose">연결 끊김</string>
+    <string name="model_not_available">연결된 기기가 없습니다.</string>
+    <string name="push_info">Push Info</string>
+    <string name="title_activity_file">FileActivity</string>
+
+
+    <string name="selection_home">Home</string>
+    <string name="selection_image">Photo</string>
+    <string name="selection_info">Information</string>
+
+
+    <string name="info_mail">moblab14@gmail.com</string>
+    <string name="sdk_version">DJI SDK Version: 4.4.1</string>
+    <string name="opencv_version">OpenCV SDK Version: 3.4.0</string>
+</resources>
