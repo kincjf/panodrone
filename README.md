@@ -14,7 +14,7 @@
 4. Google Play Services
 5. Android NDK(Native Development Kit)
 
-![Alt text](/panodrone/sdk.png)
+![Alt text](./sdk.PNG)
 
 또한 CMakeList.txt 의 절대경로에 대한 수정이 필요합니다.
 <pre><code>
